@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 100vh;
+    background-color: #3734A9;
+    color: #F7F7FB;
+    max-width: 1070px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.company {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+ul {
+    margin-top: 30px;
+    display: flex;
+    color: white;
+}
+
+.login{
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    margin: 0 24px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.signin-button {
+    padding: 12px 25px;
+    margin-right: 10px;
+    color: white;
+}
+
+.primary-button {
+    padding: 12px 25px;
+    margin-right: 20px;
+    background-color: #FF7143;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+}
+
+/* start: Container */
+.container {
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1070px;
+}
+
+.cerceve{
+    margin-top: 550px;
+    margin-left: 150px;
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+.cerceve1{
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cerceve2{
+    width: 90px;
+    height: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cerceve3{
+    width: 80px;
+    height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.frame-img{
+    width: 70px;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.information > h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 55px;
+    line-height: 77px;
+    letter-spacing: -1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+}
+
+.description {
+    font-size: 20px;
+    height: 60px;
+    line-height: 30px;
+    letter-spacing: -2;
+    width: 668px;
+    color: #F7F7FB;
+    margin-top: 30px;
+    margin-left: 210px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 50px;
+    margin-left: 260px;
+    width: 590px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fa-solid{
+    display: flex;
+    font-size: 20px;
+    width: 300px;
+}
+
+
+
+.buttons > a {
+    padding: 20px 50px;
+    background-color: #FF7143;
+    border-radius: 47px;
+    color: white;
+    display: flex;
+}
+
+.buttons > span {
+    border-radius: 100%;
+    margin-left: 40px; 
+    color:  #22D497;
+}
+
+/* end: Container */
+
+/* start: Companies */
+.companies {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+}
+
+.companies > a {
+    color: #19191B;
+}
+
+/* end: Companies */
+
+.aciklama{
+    margin-top: 450px;
+    text-align: center;
+    color: black;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    max-width: 1070px;
+}
+
+.baslik{
+    font-family: 'Manrope', sans-serif;
+}
+
+.container2 > .img {
+    margin-right: 120px;
+    margin-bottom: 50px;
+}
+
+.info {
+    width: 550px;
+    height: 500px;
+}
+
+.baslik {
+    color: #3734A9;
+}
+
+.info2 {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 20px;
+}
+
+.info > span {
+    margin-top: 0%;
+    font-size: 20px;
+}
+
+.info3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #3734A9;
+}
+
+.buttonInfo{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #3734A9;
+    border-radius: 10px;
+    padding: 15px 30px ;
+    width: 150px;
+}
+
+.buttonInfo > a {
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1070px;
+    height: 500px;
+    margin-top: 650px;
+    
+}
+
+.info4 {
+    width: 500px;
+}
+
+.info4 > span {
+    margin-top: 0%;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    color: #3734A9;
+}
+
+.ayni{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #3734A9;
+}
+
+.yetti {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.button3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #3734A9;
+    border-radius: 10px;
+    padding: 15px 30px ;
+    width: 150px;
+    
+}
+
+.button3 > a {
+    color: white;
+}
+
+
+
+/*  start belirsiz*/
+
+.belirsiz {
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #3734A9;
+    color: white;
+    max-width: 1070px;
+    height: 550px;
+}
+
+.nav2 {
+    margin-top: 15px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.nav2 > h1 {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav2 > .nav-button {
+    margin-top: 25px;
+    margin-right: 10px;
+    background-color: #FF7143;
+    border-radius: 10px;
+    padding: 15px 30px ;
+    width: 240px;
+    height: 50px;
+}
+
+.gerisi {
+    display: flex;
+    padding: 50px;
+}
+
+.liste{
+    width: 500px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+.first {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* end belirsiz */
+
+/* start: join-the-waitlist */
+
+.join-the-waitlist2 {
+    
+    justify-content: center;
+    text-align: center;
+    max-width: 1070px;
+    height: 300px;
+    padding: 50px;
+    font-size: 30px;
+}
+
+.button-last {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 390px;
+    background-color: #FF7143;
+    border-radius: 10px;
+    padding: 15px 30px ;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+
+
+/* end: join-the-waitlist */
+
+.footer {
+    display: flex;
+    background-color: #19191B;
+    max-width: 1070px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 10px;
+    
+
+}
